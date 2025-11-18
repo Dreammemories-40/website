@@ -8787,10 +8787,10 @@ h1, h2, h3, h4, h5,
     .portfolio-wrap .text .subheading {
       display: block;
       text-transform: uppercase;
-      font-size: 13px;
+      font-size: 14px;
       letter-spacing: 3px;
-      color: rgba(255, 255, 255, 0.2);
-      font-weight: 600; }
+      color: #f3c623;
+      font-weight: 700; }
     .portfolio-wrap .text h2 {
       font-size: 40px;
       display: inline-block;
@@ -8848,7 +8848,7 @@ h1, h2, h3, h4, h5,
       text-transform: uppercase;
       font-size: 13px;
       letter-spacing: 3px;
-      color: rgba(255, 255, 255, 0.5);
+      color: #000;
       font-weight: 600; }
     .portfolio-wrap-2 .text h2 {
       font-size: 40px;
@@ -8859,13 +8859,13 @@ h1, h2, h3, h4, h5,
         .portfolio-wrap-2 .text h2 {
           font-size: 9vw; } }
       .portfolio-wrap-2 .text h2 a {
-        color: #fff;
+        color: #e19de1;
         padding-bottom: 5px; }
     .portfolio-wrap-2 .text .desc {
       position: relative;
       width: 100%;
       color: rgba(255, 255, 255, 0.8);
-      -moz-transition: all 0.3s ease;
+      -moz-transition: all 0.3s ease; 
       -o-transition: all 0.3s ease;
       -webkit-transition: all 0.3s ease;
       -ms-transition: all 0.3s ease;
@@ -8906,7 +8906,7 @@ h1, h2, h3, h4, h5,
 
 .single .img-single {
   width: 100%;
-  height: 1500px; }
+  height: 400px; }
   @media (max-width: 991.98px) {
     .single .img-single {
       height: 700px; } }
@@ -8916,7 +8916,7 @@ h1, h2, h3, h4, h5,
 
 .single h1 {
   font-family: "Abril Fatface", cursive;
-  color: #fff;
+  color: #931e8a;
   font-size: 50px; }
 
 .pricing {
@@ -9350,4 +9350,11 @@ textarea.form-control {
    }
    .SocialMediaIcon{
     margin: 0.5rem;
+   }
+   .galleryContent{
+    color: #000;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 600;
+    padding: 1rem;
    }
